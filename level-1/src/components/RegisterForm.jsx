@@ -1,4 +1,3 @@
-import React from "react";
 import useForm from "./useForm";
 
 const EventRegistrationForm = () => {
@@ -31,7 +30,7 @@ const EventRegistrationForm = () => {
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <div className="w-full max-w-md p-8 space-y-4 bg-white shadow-lg rounded-lg">
+      <div className="w-full max-w-md p-8 space-y-4 bg-white shadow-lg rounded-lg flex justify-between items-center flex-col">
         <h1 className="text-2xl font-bold text-center">
           Event Registration Form
         </h1>
