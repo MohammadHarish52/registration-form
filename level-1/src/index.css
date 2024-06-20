@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  max-width: 400px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 15px;
+}
+
+p {
+  color: red;
+}
+.summary {
+  color: rgb(22, 150, 60);
+}
